@@ -1,0 +1,5 @@
+{
+	"compileJs": "scripts.js",
+	"deployOther": ["**/*", "!scripts.js", "!config.json", "!js", "!js/*", "!sass", "!**/*.scss"],
+	"watchOther": ["**/*", "!scripts.js", "!js/*", "!**/*.scss"]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "wp-devstack",
+  "version": "1.0.0",
+  "description": "A sass and browserify dev stack for wordpress themes",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "async": "^1.5.2",
+    "browserify": "^13.0.0",
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.2.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "gulp default"
+  },
+  "keywords": [
+    "sass",
+    "browserify",
+    "wordpress"
+  ],
+  "author": "Billy Mathews"
+}

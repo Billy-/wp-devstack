@@ -1,0 +1,12 @@
+{
+	"source": "themes",
+	"compileSass": ["**/*.scss", "!**/_*.scss"],
+	"compileJs": "app.js",
+	"deployCss": "**/*.css",
+	"deployJs": "**/*.js",
+	"deployOther": ["**/*", "!app.js", "!config.json", "!js", "!js/*", "!sass", "!**/*.scss"],
+	"deployDest": "../xampp/htdocs/wp-content/themes/",
+	"watchSass": "**/*.scss",
+	"watchJs": "**/*.js",
+	"watchOther": ["**/*", "!app.js", "!js/*", "!**/*.scss"]
+}
